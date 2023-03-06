@@ -80,25 +80,29 @@ struct CardView: View {
         VStack {
             HStack {
                 VStack(alignment: .leading) {
-                    Text("UI Design")
+                    Text("MERN Stack")
                         .font(.title)
                         .fontWeight(.semibold)
                         .foregroundColor(Color.white)
                         .frame(width: 200, alignment: .leading)
                         
-                    Text("Certificate")
+                    Text("JavaScript")
                         .foregroundColor(Color("accent"))
                 }
                 Spacer()
                     .padding()
-                Image("Logo1")
+                Image("small-react-logo")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: 30, height: 30)
             }.padding(.horizontal, 20).padding(.top, 20)
             Spacer()
-            Image("Card1")
+            Image("responsive-website-design-service")
                 .resizable()
                 .aspectRatio(contentMode: .fill)
+                .offset(y: -40)
                 .frame(width: 300, height: 110, alignment: .top)
-        }.frame(width: 340.0, height: 220.0).background(Color.black).cornerRadius(20).shadow(radius: 20)
+        }.frame(width: 340.0, height: 220.0).background(Color.primary).cornerRadius(20).shadow(radius: 20)
     }
 }
 
@@ -114,7 +118,7 @@ struct TitleView: View {
     var body: some View {
         VStack {
             HStack {
-                Text("Certificates")
+                Text("Norman's Skills")
                     .font(.largeTitle)
                     .fontWeight(.bold)
                 Spacer()
@@ -130,7 +134,7 @@ struct BottomCardView: View {
     var body: some View {
         VStack(spacing: 20) {
             Rectangle().frame(width: 40, height: 5).cornerRadius(3).opacity(0.1)
-            Text("This certificate is proof that Meng To has achieved the UI Design course with approval from a Design+Code instructor.").multilineTextAlignment(.center).font(.subheadline).lineSpacing(4)
+            Text("MERN stands for Mongo (a NoSQL database), Express (a NodeJS framework), React (A front-end library) and Node (a server environment). All based on JavaScript programing language.").multilineTextAlignment(.center).font(.subheadline).lineSpacing(4)
             Spacer()
         }
         .padding(.top, 8)
