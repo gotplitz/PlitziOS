@@ -8,7 +8,11 @@
 import SwiftUI
 
 struct HomeView: View {
+    // State shared
     @Binding var showProfile: Bool
+    
+    // Local State
+    @State var showUpdate = false
     
     var body: some View {
         VStack {
@@ -19,19 +23,42 @@ struct HomeView: View {
                 Spacer()
                 
                 AvatarViews(showProfile: $showProfile)
+                
+                Button(action: { self.showUpdate.toggle()}) {
+                    Image(systemName: "bell")
+                        .renderingMode(.original)
+                        .font(.system(size: 16, weight: .medium))
+                        .frame(width: 36, height: 36)
+                        .background(Color.white)
+                        .clipShape(Circle())
+                        .shadow(color: Color.black.opacity(0.1), radius: 1, x: 0, y: 1)
+                        .shadow(color: Color.black.opacity(0.2), radius: 10, x: 0, y: 10)
+                }
+                .sheet(isPresented: $showUpdate) {
+                    UpdateList()
+                }
             }
             .padding(.horizontal)
             .padding(.leading, 14)
             .padding(.top, 30)
             
             ScrollView(.horizontal, showsIndicators: false){
-                HStack(spacing: 30) {
+                HStack(spacing: 10) {
                     ForEach(sectionData) { item in
-                        SectionView(section: item)
+                        GeometryReader {
+                            geometry in
+                            SectionView(section: item)
+                                .rotation3DEffect(
+                                    Angle(degrees:
+                                            Double(geometry.frame(in: .global).minX - 30) / -20),
+                                        axis: (x: 0, y: 10.0, z: 0))
+                        }
+                        .frame(width: 275, height: 275)
                     }
                 }
                 .padding(30)
                 .padding(.bottom, 30)
+                .padding(.trailing, 60)
             }
             
             Spacer()

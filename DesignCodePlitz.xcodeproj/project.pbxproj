@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ADB9660429BD81B200B7DF90 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB9660329BD81B200B7DF90 /* UpdateList.swift */; };
+		ADB9660629BD870700B7DF90 /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB9660529BD870700B7DF90 /* UpdateDetail.swift */; };
+		ADB9660829BD89CF00B7DF90 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB9660729BD89CF00B7DF90 /* UpdateStore.swift */; };
+		ADB9660A29BD962200B7DF90 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB9660929BD962200B7DF90 /* TabBar.swift */; };
+		ADF3265629C1215C00DF3D20 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF3265529C1215C00DF3D20 /* RingView.swift */; };
 		D5186C3229B81E3A00319D7F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5186C3129B81E3A00319D7F /* Home.swift */; };
 		D52FF37D29B6D9A8007A3F76 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52FF37C29B6D9A8007A3F76 /* MenuView.swift */; };
 		D5354A4A29B3C1C000EC64E8 /* DesignCodePlitzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5354A4929B3C1C000EC64E8 /* DesignCodePlitzApp.swift */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ADB9660329BD81B200B7DF90 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
+		ADB9660529BD870700B7DF90 /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
+		ADB9660729BD89CF00B7DF90 /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
+		ADB9660929BD962200B7DF90 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		ADF3265529C1215C00DF3D20 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 		D5186C3129B81E3A00319D7F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		D52FF37C29B6D9A8007A3F76 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		D5354A4629B3C1C000EC64E8 /* DesignCodePlitz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCodePlitz.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,9 +70,14 @@
 			children = (
 				D5354A4929B3C1C000EC64E8 /* DesignCodePlitzApp.swift */,
 				D5354A4B29B3C1C000EC64E8 /* ContentView.swift */,
+				ADF3265529C1215C00DF3D20 /* RingView.swift */,
 				D5186C3129B81E3A00319D7F /* Home.swift */,
 				D5A1B3CD29B963130007712D /* HomeView.swift */,
 				D52FF37C29B6D9A8007A3F76 /* MenuView.swift */,
+				ADB9660329BD81B200B7DF90 /* UpdateList.swift */,
+				ADB9660529BD870700B7DF90 /* UpdateDetail.swift */,
+				ADB9660729BD89CF00B7DF90 /* UpdateStore.swift */,
+				ADB9660929BD962200B7DF90 /* TabBar.swift */,
 				D5354A4D29B3C1C100EC64E8 /* Assets.xcassets */,
 				D5354A4F29B3C1C100EC64E8 /* DesignCodePlitz.entitlements */,
 				D5354A5029B3C1C100EC64E8 /* Preview Content */,
@@ -148,8 +163,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF3265629C1215C00DF3D20 /* RingView.swift in Sources */,
+				ADB9660A29BD962200B7DF90 /* TabBar.swift in Sources */,
+				ADB9660629BD870700B7DF90 /* UpdateDetail.swift in Sources */,
 				D5354A4C29B3C1C000EC64E8 /* ContentView.swift in Sources */,
 				D52FF37D29B6D9A8007A3F76 /* MenuView.swift in Sources */,
+				ADB9660429BD81B200B7DF90 /* UpdateList.swift in Sources */,
+				ADB9660829BD89CF00B7DF90 /* UpdateStore.swift in Sources */,
 				D5186C3229B81E3A00319D7F /* Home.swift in Sources */,
 				D5A1B3CE29B963130007712D /* HomeView.swift in Sources */,
 				D5354A4A29B3C1C000EC64E8 /* DesignCodePlitzApp.swift in Sources */,
@@ -277,18 +297,24 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DesignCodePlitz/Preview Content\"";
+				DEVELOPMENT_TEAM = YU897ADY42;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DesignCodePlitz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Norm;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = TabBar;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -313,18 +339,24 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DesignCodePlitz/Preview Content\"";
+				DEVELOPMENT_TEAM = YU897ADY42;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DesignCodePlitz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Norm;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = TabBar;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
