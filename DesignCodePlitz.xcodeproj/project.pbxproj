@@ -18,7 +18,37 @@
 		D5354A4C29B3C1C000EC64E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5354A4B29B3C1C000EC64E8 /* ContentView.swift */; };
 		D5354A4E29B3C1C100EC64E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5354A4D29B3C1C100EC64E8 /* Assets.xcassets */; };
 		D5354A5229B3C1C100EC64E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5354A5129B3C1C100EC64E8 /* Preview Assets.xcassets */; };
+		D57BD7CE29CBAD0E00203E18 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57BD7CD29CBAD0E00203E18 /* DataStore.swift */; };
+		D57BD7D129CBDDC000203E18 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = D57BD7D029CBDDC000203E18 /* SDWebImageSwiftUI */; };
+		D595768F29CA810A0060595B /* PostDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D595768E29CA810A0060595B /* PostDetails.swift */; };
+		D595769129CA9BD10060595B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D595769029CA9BD10060595B /* Data.swift */; };
+		D595769329CA9DCF0060595B /* ASAPostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D595769229CA9DCF0060595B /* ASAPostList.swift */; };
 		D5A1B3CE29B963130007712D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A1B3CD29B963130007712D /* HomeView.swift */; };
+		D5D3FF0229C5007A007DBC93 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D3FF0129C5007A007DBC93 /* Modifiers.swift */; };
+		D5D3FF1B29C50383007DBC93 /* WorkSans-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5D3FF0429C50383007DBC93 /* WorkSans-VariableFont_wght.ttf */; };
+		D5D3FF1C29C50383007DBC93 /* WorkSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5D3FF0629C50383007DBC93 /* WorkSans-Regular.ttf */; };
+		D5D3FF1D29C50383007DBC93 /* WorkSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5D3FF0729C50383007DBC93 /* WorkSans-Light.ttf */; };
+		D5D3FF1E29C50383007DBC93 /* WorkSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5D3FF0829C50383007DBC93 /* WorkSans-ExtraBold.ttf */; };
+		D5D3FF1F29C50383007DBC93 /* WorkSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5D3FF0929C50383007DBC93 /* WorkSans-SemiBoldItalic.ttf */; };
+		D5D3FF2029C50383007DBC93 /* WorkSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5D3FF0A29C50383007DBC93 /* WorkSans-MediumItalic.ttf */; };
+		D5D3FF2129C50383007DBC93 /* WorkSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5D3FF0B29C50383007DBC93 /* WorkSans-BoldItalic.ttf */; };
+		D5D3FF2229C50383007DBC93 /* WorkSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5D3FF0C29C50383007DBC93 /* WorkSans-ExtraLight.ttf */; };
+		D5D3FF2329C50383007DBC93 /* WorkSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5D3FF0D29C50383007DBC93 /* WorkSans-ThinItalic.ttf */; };
+		D5D3FF2429C50383007DBC93 /* WorkSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5D3FF0E29C50383007DBC93 /* WorkSans-ExtraLightItalic.ttf */; };
+		D5D3FF2529C50383007DBC93 /* WorkSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5D3FF0F29C50383007DBC93 /* WorkSans-Medium.ttf */; };
+		D5D3FF2629C50383007DBC93 /* WorkSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5D3FF1029C50383007DBC93 /* WorkSans-SemiBold.ttf */; };
+		D5D3FF2729C50383007DBC93 /* WorkSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5D3FF1129C50383007DBC93 /* WorkSans-Italic.ttf */; };
+		D5D3FF2829C50383007DBC93 /* WorkSans-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5D3FF1229C50383007DBC93 /* WorkSans-BlackItalic.ttf */; };
+		D5D3FF2929C50383007DBC93 /* WorkSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5D3FF1329C50383007DBC93 /* WorkSans-Thin.ttf */; };
+		D5D3FF2A29C50383007DBC93 /* WorkSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5D3FF1429C50383007DBC93 /* WorkSans-Black.ttf */; };
+		D5D3FF2B29C50383007DBC93 /* WorkSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5D3FF1529C50383007DBC93 /* WorkSans-LightItalic.ttf */; };
+		D5D3FF2C29C50383007DBC93 /* WorkSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5D3FF1629C50383007DBC93 /* WorkSans-ExtraBoldItalic.ttf */; };
+		D5D3FF2D29C50383007DBC93 /* WorkSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5D3FF1729C50383007DBC93 /* WorkSans-Bold.ttf */; };
+		D5D3FF2E29C50383007DBC93 /* WorkSans-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5D3FF1829C50383007DBC93 /* WorkSans-Italic-VariableFont_wght.ttf */; };
+		D5D3FF2F29C50383007DBC93 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = D5D3FF1929C50383007DBC93 /* OFL.txt */; };
+		D5D3FF3029C50383007DBC93 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = D5D3FF1A29C50383007DBC93 /* README.txt */; };
+		D5D3FF3229C51282007DBC93 /* BlogList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D3FF3129C51282007DBC93 /* BlogList.swift */; };
+		D5F7820B29CCF1C30024AA36 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F7820A29CCF1C30024AA36 /* BlurView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +65,36 @@
 		D5354A4D29B3C1C100EC64E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5354A4F29B3C1C100EC64E8 /* DesignCodePlitz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DesignCodePlitz.entitlements; sourceTree = "<group>"; };
 		D5354A5129B3C1C100EC64E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D57BD7CD29CBAD0E00203E18 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		D595768E29CA810A0060595B /* PostDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetails.swift; sourceTree = "<group>"; };
+		D595769029CA9BD10060595B /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		D595769229CA9DCF0060595B /* ASAPostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASAPostList.swift; sourceTree = "<group>"; };
 		D5A1B3CD29B963130007712D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D5D3FF0129C5007A007DBC93 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		D5D3FF0429C50383007DBC93 /* WorkSans-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		D5D3FF0629C50383007DBC93 /* WorkSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Regular.ttf"; sourceTree = "<group>"; };
+		D5D3FF0729C50383007DBC93 /* WorkSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Light.ttf"; sourceTree = "<group>"; };
+		D5D3FF0829C50383007DBC93 /* WorkSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		D5D3FF0929C50383007DBC93 /* WorkSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		D5D3FF0A29C50383007DBC93 /* WorkSans-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		D5D3FF0B29C50383007DBC93 /* WorkSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D5D3FF0C29C50383007DBC93 /* WorkSans-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		D5D3FF0D29C50383007DBC93 /* WorkSans-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-ThinItalic.ttf"; sourceTree = "<group>"; };
+		D5D3FF0E29C50383007DBC93 /* WorkSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		D5D3FF0F29C50383007DBC93 /* WorkSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Medium.ttf"; sourceTree = "<group>"; };
+		D5D3FF1029C50383007DBC93 /* WorkSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		D5D3FF1129C50383007DBC93 /* WorkSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Italic.ttf"; sourceTree = "<group>"; };
+		D5D3FF1229C50383007DBC93 /* WorkSans-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-BlackItalic.ttf"; sourceTree = "<group>"; };
+		D5D3FF1329C50383007DBC93 /* WorkSans-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Thin.ttf"; sourceTree = "<group>"; };
+		D5D3FF1429C50383007DBC93 /* WorkSans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Black.ttf"; sourceTree = "<group>"; };
+		D5D3FF1529C50383007DBC93 /* WorkSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		D5D3FF1629C50383007DBC93 /* WorkSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		D5D3FF1729C50383007DBC93 /* WorkSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Bold.ttf"; sourceTree = "<group>"; };
+		D5D3FF1829C50383007DBC93 /* WorkSans-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		D5D3FF1929C50383007DBC93 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		D5D3FF1A29C50383007DBC93 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		D5D3FF3129C51282007DBC93 /* BlogList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogList.swift; sourceTree = "<group>"; };
+		D5F7820A29CCF1C30024AA36 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D57BD7D129CBDDC000203E18 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,14 +131,22 @@
 				D5354A4929B3C1C000EC64E8 /* DesignCodePlitzApp.swift */,
 				D5354A4B29B3C1C000EC64E8 /* ContentView.swift */,
 				ADF3265529C1215C00DF3D20 /* RingView.swift */,
+				D5D3FF0129C5007A007DBC93 /* Modifiers.swift */,
 				D5186C3129B81E3A00319D7F /* Home.swift */,
 				D5A1B3CD29B963130007712D /* HomeView.swift */,
+				D5D3FF3129C51282007DBC93 /* BlogList.swift */,
+				D595768E29CA810A0060595B /* PostDetails.swift */,
 				D52FF37C29B6D9A8007A3F76 /* MenuView.swift */,
 				ADB9660329BD81B200B7DF90 /* UpdateList.swift */,
 				ADB9660529BD870700B7DF90 /* UpdateDetail.swift */,
 				ADB9660729BD89CF00B7DF90 /* UpdateStore.swift */,
+				D595769029CA9BD10060595B /* Data.swift */,
+				D57BD7CD29CBAD0E00203E18 /* DataStore.swift */,
+				D595769229CA9DCF0060595B /* ASAPostList.swift */,
 				ADB9660929BD962200B7DF90 /* TabBar.swift */,
+				D5F7820A29CCF1C30024AA36 /* BlurView.swift */,
 				D5354A4D29B3C1C100EC64E8 /* Assets.xcassets */,
+				D5D3FF0329C50383007DBC93 /* Work_Sans */,
 				D5354A4F29B3C1C100EC64E8 /* DesignCodePlitz.entitlements */,
 				D5354A5029B3C1C100EC64E8 /* Preview Content */,
 			);
@@ -91,6 +159,35 @@
 				D5354A5129B3C1C100EC64E8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D5D3FF0329C50383007DBC93 /* Work_Sans */ = {
+			isa = PBXGroup;
+			children = (
+				D5D3FF0629C50383007DBC93 /* WorkSans-Regular.ttf */,
+				D5D3FF0729C50383007DBC93 /* WorkSans-Light.ttf */,
+				D5D3FF0829C50383007DBC93 /* WorkSans-ExtraBold.ttf */,
+				D5D3FF0929C50383007DBC93 /* WorkSans-SemiBoldItalic.ttf */,
+				D5D3FF0A29C50383007DBC93 /* WorkSans-MediumItalic.ttf */,
+				D5D3FF0B29C50383007DBC93 /* WorkSans-BoldItalic.ttf */,
+				D5D3FF0C29C50383007DBC93 /* WorkSans-ExtraLight.ttf */,
+				D5D3FF0D29C50383007DBC93 /* WorkSans-ThinItalic.ttf */,
+				D5D3FF0E29C50383007DBC93 /* WorkSans-ExtraLightItalic.ttf */,
+				D5D3FF0F29C50383007DBC93 /* WorkSans-Medium.ttf */,
+				D5D3FF1029C50383007DBC93 /* WorkSans-SemiBold.ttf */,
+				D5D3FF1129C50383007DBC93 /* WorkSans-Italic.ttf */,
+				D5D3FF1229C50383007DBC93 /* WorkSans-BlackItalic.ttf */,
+				D5D3FF1329C50383007DBC93 /* WorkSans-Thin.ttf */,
+				D5D3FF1429C50383007DBC93 /* WorkSans-Black.ttf */,
+				D5D3FF1529C50383007DBC93 /* WorkSans-LightItalic.ttf */,
+				D5D3FF1629C50383007DBC93 /* WorkSans-ExtraBoldItalic.ttf */,
+				D5D3FF1729C50383007DBC93 /* WorkSans-Bold.ttf */,
+				D5D3FF0429C50383007DBC93 /* WorkSans-VariableFont_wght.ttf */,
+				D5D3FF1829C50383007DBC93 /* WorkSans-Italic-VariableFont_wght.ttf */,
+				D5D3FF1929C50383007DBC93 /* OFL.txt */,
+				D5D3FF1A29C50383007DBC93 /* README.txt */,
+			);
+			path = Work_Sans;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +206,9 @@
 			dependencies = (
 			);
 			name = DesignCodePlitz;
+			packageProductDependencies = (
+				D57BD7D029CBDDC000203E18 /* SDWebImageSwiftUI */,
+			);
 			productName = DesignCodePlitz;
 			productReference = D5354A4629B3C1C000EC64E8 /* DesignCodePlitz.app */;
 			productType = "com.apple.product-type.application";
@@ -137,6 +237,9 @@
 				Base,
 			);
 			mainGroup = D5354A3D29B3C1C000EC64E8;
+			packageReferences = (
+				D57BD7CF29CBDDC000203E18 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = D5354A4729B3C1C000EC64E8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -151,8 +254,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5D3FF2B29C50383007DBC93 /* WorkSans-LightItalic.ttf in Resources */,
 				D5354A5229B3C1C100EC64E8 /* Preview Assets.xcassets in Resources */,
+				D5D3FF2129C50383007DBC93 /* WorkSans-BoldItalic.ttf in Resources */,
+				D5D3FF2329C50383007DBC93 /* WorkSans-ThinItalic.ttf in Resources */,
+				D5D3FF2029C50383007DBC93 /* WorkSans-MediumItalic.ttf in Resources */,
+				D5D3FF2429C50383007DBC93 /* WorkSans-ExtraLightItalic.ttf in Resources */,
 				D5354A4E29B3C1C100EC64E8 /* Assets.xcassets in Resources */,
+				D5D3FF1F29C50383007DBC93 /* WorkSans-SemiBoldItalic.ttf in Resources */,
+				D5D3FF2C29C50383007DBC93 /* WorkSans-ExtraBoldItalic.ttf in Resources */,
+				D5D3FF1B29C50383007DBC93 /* WorkSans-VariableFont_wght.ttf in Resources */,
+				D5D3FF2929C50383007DBC93 /* WorkSans-Thin.ttf in Resources */,
+				D5D3FF2229C50383007DBC93 /* WorkSans-ExtraLight.ttf in Resources */,
+				D5D3FF2F29C50383007DBC93 /* OFL.txt in Resources */,
+				D5D3FF2629C50383007DBC93 /* WorkSans-SemiBold.ttf in Resources */,
+				D5D3FF1C29C50383007DBC93 /* WorkSans-Regular.ttf in Resources */,
+				D5D3FF2A29C50383007DBC93 /* WorkSans-Black.ttf in Resources */,
+				D5D3FF1E29C50383007DBC93 /* WorkSans-ExtraBold.ttf in Resources */,
+				D5D3FF2829C50383007DBC93 /* WorkSans-BlackItalic.ttf in Resources */,
+				D5D3FF2E29C50383007DBC93 /* WorkSans-Italic-VariableFont_wght.ttf in Resources */,
+				D5D3FF2529C50383007DBC93 /* WorkSans-Medium.ttf in Resources */,
+				D5D3FF2729C50383007DBC93 /* WorkSans-Italic.ttf in Resources */,
+				D5D3FF1D29C50383007DBC93 /* WorkSans-Light.ttf in Resources */,
+				D5D3FF3029C50383007DBC93 /* README.txt in Resources */,
+				D5D3FF2D29C50383007DBC93 /* WorkSans-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,12 +289,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADF3265629C1215C00DF3D20 /* RingView.swift in Sources */,
+				D57BD7CE29CBAD0E00203E18 /* DataStore.swift in Sources */,
+				D595769329CA9DCF0060595B /* ASAPostList.swift in Sources */,
+				D5D3FF3229C51282007DBC93 /* BlogList.swift in Sources */,
+				D5D3FF0229C5007A007DBC93 /* Modifiers.swift in Sources */,
 				ADB9660A29BD962200B7DF90 /* TabBar.swift in Sources */,
+				D595768F29CA810A0060595B /* PostDetails.swift in Sources */,
 				ADB9660629BD870700B7DF90 /* UpdateDetail.swift in Sources */,
 				D5354A4C29B3C1C000EC64E8 /* ContentView.swift in Sources */,
+				D595769129CA9BD10060595B /* Data.swift in Sources */,
 				D52FF37D29B6D9A8007A3F76 /* MenuView.swift in Sources */,
 				ADB9660429BD81B200B7DF90 /* UpdateList.swift in Sources */,
 				ADB9660829BD89CF00B7DF90 /* UpdateStore.swift in Sources */,
+				D5F7820B29CCF1C30024AA36 /* BlurView.swift in Sources */,
 				D5186C3229B81E3A00319D7F /* Home.swift in Sources */,
 				D5A1B3CE29B963130007712D /* HomeView.swift in Sources */,
 				D5354A4A29B3C1C000EC64E8 /* DesignCodePlitzApp.swift in Sources */,
@@ -302,6 +434,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DesignCodePlitz/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Norm;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -310,7 +443,7 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = TabBar;
 				INFOPLIST_KEY_UIRequiresFullScreen = NO;
-				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -344,6 +477,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DesignCodePlitz/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Norm;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -352,7 +486,7 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = TabBar;
 				INFOPLIST_KEY_UIRequiresFullScreen = NO;
-				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -394,6 +528,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D57BD7CF29CBDDC000203E18 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D57BD7D029CBDDC000203E18 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D57BD7CF29CBDDC000203E18 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D5354A3E29B3C1C000EC64E8 /* Project object */;
 }

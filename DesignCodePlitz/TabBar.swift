@@ -18,6 +18,14 @@ struct TabBar: View {
                 Image(systemName: "rectangle.stack.fill")
                 Text("Softwares")
             }
+            BlogList().tabItem {
+                Image(systemName: "list.bullet.below.rectangle")
+                Text("Blog Posts")
+            }
+//            ASAPostList().tabItem {
+//                Image(systemName: "ellipsis.viewfinder")
+//                Text("ASA List")
+//            }
         }
         .edgesIgnoringSafeArea(.top)
     }

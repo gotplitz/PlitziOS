@@ -87,38 +87,38 @@ struct ContentView: View {
             
 //            Text("\(bottomState.height)").offset(y: -300)
             
-            BottomCardView()
-                .offset(x: 0, y: showCard ? 360 : 1000)
+            BottomCardView(show: $showCard)
+                .offset(x: 0, y: showCard ? 360 : screen.height)
                 .offset(y: bottomState.height)
                 .blur(radius: show ? 20 : 0)
                 .animation(.timingCurve(0.2, 0.8, 0.2, 1, duration: 0.8), value: showCard)
                 .animation(.timingCurve(0.2, 0.8, 0.2, 1, duration: 0.8), value: bottomState)
-            .gesture(
-                DragGesture().onChanged {
-                    value in
-                    self.bottomState = value.translation
-                    if self.showFull {
-                        self.bottomState.height += -300
+                .gesture(
+                    DragGesture().onChanged {
+                        value in
+                        self.bottomState = value.translation
+                        if self.showFull {
+                            self.bottomState.height += -300
+                        }
+                        if self.bottomState.height < -300 {
+                            self.bottomState.height = -300
+                        }
+                        
+                    }.onEnded {
+                        value in
+                        if self.bottomState.height > 50 {
+                            self.showCard = false
+                        }
+                        if (self.bottomState.height < -100 && !self.showFull) || (self.bottomState.height < -200 && self.showFull ) {
+                            self.bottomState.height = -300
+                            self.showFull =  true
+                        } else {
+                            self.bottomState = .zero
+                            self.showFull = false
+                        }
+                        
                     }
-                    if self.bottomState.height < -300 {
-                        self.bottomState.height = -300
-                    }
-                    
-                }.onEnded {
-                    value in
-                    if self.bottomState.height > 50 {
-                        self.showCard = false
-                    }
-                    if (self.bottomState.height < -100 && !self.showFull) || (self.bottomState.height < -200 && self.showFull ) {
-                        self.bottomState.height = -300
-                        self.showFull =  true
-                    } else {
-                        self.bottomState = .zero
-                        self.showFull = false
-                    }
-                    
-                }
-            )
+                )
 
         }
     }
@@ -186,16 +186,40 @@ struct TitleView: View {
 }
 
 struct BottomCardView: View {
+    @Binding var show: Bool
+    
     var body: some View {
         VStack(spacing: 20) {
             Rectangle().frame(width: 40, height: 5).cornerRadius(3).opacity(0.1)
-            Text("MERN stands for Mongo (a NoSQL database), Express (a NodeJS framework), React (A front-end library) and Node (a server environment). All based on JavaScript programing language.").multilineTextAlignment(.center).font(.subheadline).lineSpacing(4)
+            Text("MERN stands for Mongo (a NoSQL database), Express (a NodeJS framework), React (A front-end library) and Node (a server environment). All based on JavaScript programing language.")
+                .multilineTextAlignment(.center)
+                .font(.subheadline)
+                .lineSpacing(4)
+            
+            HStack(spacing: 20.0) {
+                RingView(color1: .blue, color2: .cyan, width: 88, height: 88, percent: 78, show: $show)
+                    .animation(.timingCurve(0.2, 0.8, 0.2, 1, duration: 1), value: show)
+                    
+                
+                VStack(alignment: .leading, spacing: 8.0) {
+                    Text("MERN Knowledge").fontWeight(.bold)
+                    Text("So far we have mastered React\nStill learning more about NodeJS")
+                        .font(.footnote)
+                        .foregroundColor(.gray)
+                        .lineSpacing(4)
+                }
+                .padding(20)
+                .background(Color.white)
+                .cornerRadius(30)
+                .shadow(color: Color.black.opacity(0.2), radius: 20, x: 0, y: 10)
+            }
+            
             Spacer()
         }
         .padding(.top, 8)
         .padding(.horizontal, 20)
         .frame(maxWidth: .infinity)
-        .background(Color.white)
+        .background(BlurView(style: .systemThinMaterial))
         .cornerRadius(30)
         .shadow(radius: 20)
     }
